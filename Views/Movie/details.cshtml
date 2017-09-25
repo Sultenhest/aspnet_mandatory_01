@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"]  = "Movie Information";
+    ViewData["Header"] = "Movie Information";
+    ViewData["Lead"]   = @Model.Name;
+}
+
+<div class="row mb-4">
+    <div class="col-sm-5">
+        <img src="http://placehold.it/500x740" class="rounded img-fluid" alt="@Model.Name">
+    </div>
+
+    <div class="col-sm-7">
+        <p><strong>Title:</strong> @Model.Name</p>
+        <p><strong>Year of Release:</strong> @Model.Year</p>
+        <p><strong>Director:</strong> @Model.Director</p>
+        <p><strong>Description:</strong> @Model.Description</p>
+
+        
+
+        <a href="/" class="btn btn-success">Take me back!</a>
+        <a href="/Movie/Update/@Model.Id" class="btn btn-primary">Edit</a>
+        <a href="/Movie/Delete/@Model.Id" class="btn btn-outline-danger">Delete</a>
+    </div>
+</div>

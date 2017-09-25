@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"]  = "Movie Overview";
+    ViewData["Header"] = "Movie Overview";
+    ViewData["Lead"]   = "Movies";
+}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Movie Title</th>
+            <th>Year of Release</th>
+            <th>Director</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var movie in @Model)
+        {    
+            <tr>
+                <td scope="row">@movie.Name</td>
+                <td>@movie.Year</td>
+                <td>@movie.Director</td>
+                <td>
+                    <a href="/Movie/Details/@movie.Id" class="btn btn-success btn-sm">Details</a>
+                    <a href="/Movie/Update/@movie.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a href="/Movie/Delete/@movie.Id" class="btn btn-outline-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

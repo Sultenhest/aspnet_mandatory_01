@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"]  = "Update";
+    ViewData["Header"] = "Movie Update";
+    ViewData["Lead"]   = "";
+}
+
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Update Movie</h4>
+    <form method="POST" asp-action="UpdateConfirmed" class="d-inline">
+
+        <!-- Hidden ID field. Super safe -->
+        <input type="hidden" id="id" name="id" value="@Model.Id">
+
+        <div class="form-group">
+            <label for="name">Movie Title</label>
+            <input class="form-control" type="text" id="name" name="name" placeholder="Movie Title" value="@Model.Name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="director">Director</label>
+            <input class="form-control" type="text" id="director" name="director" placeholder="Director" value="@Model.Director" required>
+        </div>
+
+        <div class="form-group">
+            <label for="year">Year of Release</label>
+            <input class="form-control" type="number" id="year" name="year" placeholder="Year of Release" value="@Model.Year" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="8" placeholder="Short Description">@Model.Description</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update Movie</button>
+    </form>
+    <a href="/" class="btn btn-success">Take me back!</a>
+</div>

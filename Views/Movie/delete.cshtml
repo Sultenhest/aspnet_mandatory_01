@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"]  = "Delete Movie";
+    ViewData["Header"] = "Delete Movie";
+    ViewData["Lead"]   = "";
+}
+
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Delete Confirmation</h4>
+    <p>Are you sure you want to delete</p>
+    <p class="font-weight-bold">@Model.Name (@Model.Year) by @Model.Director?</p>
+    <form method="POST" asp-action="DeleteConfirmed" asp-route-id="@Model.Id" class="d-inline">
+        <button type="submit" class="btn btn-danger">Yes! Delete this!</button>
+    </form>
+    <a href="/" class="btn btn-success">No! Take me back!</a>
+</div>

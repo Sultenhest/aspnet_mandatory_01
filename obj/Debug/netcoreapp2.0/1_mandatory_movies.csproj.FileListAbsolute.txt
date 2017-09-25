@@ -1,0 +1,10 @@
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/bin/Debug/netcoreapp2.0/1_mandatory_movies.deps.json
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/bin/Debug/netcoreapp2.0/1_mandatory_movies.runtimeconfig.json
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/bin/Debug/netcoreapp2.0/1_mandatory_movies.runtimeconfig.dev.json
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/bin/Debug/netcoreapp2.0/1_mandatory_movies.dll
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/bin/Debug/netcoreapp2.0/1_mandatory_movies.pdb
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.csproj.CoreCompileInputs.cache
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.AssemblyInfoInputs.cache
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.AssemblyInfo.cs
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.dll
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.pdb
