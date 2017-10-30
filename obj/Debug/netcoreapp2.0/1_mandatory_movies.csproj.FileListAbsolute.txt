@@ -8,3 +8,5 @@
 /Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.AssemblyInfo.cs
 /Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.dll
 /Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.pdb
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/obj/Debug/netcoreapp2.0/1_mandatory_movies.csprojResolveAssemblyReference.cache
+/Users/Simon/Documents/Dock/KEA/4_semester/asp/1_mandatory_movies/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
