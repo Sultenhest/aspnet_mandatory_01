@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D4F4D241-086A-4DAB-B3F1-640C9A7FCC8A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/1_mandatory_moviesContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
     <Files>
       <File FileName="Views/Shared/_Layout.cshtml" Line="39" Column="26" />
-      <File FileName="Data/1_mandatory_moviesContext.cs" Line="17" Column="48" />
+      <File FileName="Data/1_mandatory_moviesContext.cs" Line="19" Column="2" />
+      <File FileName="README.md" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
